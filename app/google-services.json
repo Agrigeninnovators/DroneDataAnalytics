@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "153556281403",
+    "project_id": "agrigen-innovators-b1701",
+    "storage_bucket": "agrigen-innovators-b1701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153556281403:android:8b6b53529a2a52ffdc541e",
+        "android_client_info": {
+          "package_name": "com.example.agis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgi4OGUMP7WkqZDBlvpYcG-u5fwcEoXXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

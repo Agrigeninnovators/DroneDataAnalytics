@@ -1,0 +1,63 @@
+<!-- res/layout/fragment_main.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:textSize="24dp"
+        android:layout_marginBottom="35dp"
+        android:text="Your Field:"
+        android:textColor="@color/black" />
+
+        <GridView
+            android:id="@+id/farming_plot"
+            android:layout_width="361dp"
+            android:layout_height="425dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="20dp"
+            android:alpha="0.9"
+            android:background="#D5F8D14E"
+            android:gravity="center"
+            android:horizontalSpacing="1dp"
+            android:numColumns="6"
+            android:outlineProvider="bounds"
+            android:paddingLeft="1sp"
+            android:paddingRight="1sp"
+            android:stretchMode="columnWidth"
+            android:textAlignment="gravity"
+            android:verticalSpacing="6dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For FAQ's Chat with us:"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:layout_gravity="end" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:tooltipText="FAQ'S"
+        android:src="@android:drawable/sym_action_chat" />
+    </LinearLayout>
+</ScrollView>
